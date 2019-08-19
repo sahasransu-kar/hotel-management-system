@@ -1,0 +1,115 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{   margin: auto;
+    height: 100%;
+}
+.h
+{ 
+    height: 150px;
+    position: relative;
+ 
+}
+.h p 
+{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-decoration-style: solid;
+    font-size: 40px;
+}
+.h1
+{ 
+    height: 0px;
+    position: relative;
+ 
+}
+.h1 p 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-decoration-style: dashed;
+    font-size: 40px;  
+}
+.form
+{   
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+.emoji {
+    padding: 2rem;
+    font-size: 4rem;
+    transition: font-size .1s ease-in-out;
+    
+    display: inline-block;
+  }
+  
+  .emoji:hover {
+    font-size: 6rem;
+  }
+.form a
+{  display:inline-block;
+    text-decoration: none; 
+    padding: 5px 10px ; 
+}
+.t{
+    border-radius: 50px;
+	background-color: #6567d8;
+	padding: 30px;
+}
+
+.t
+{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+.t .r
+{
+    width: 20%;
+
+}
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+  }
+  
+  label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+  }
+  
+  input[type=submit] {
+	background-color: rgb(230, 138, 181);
+	color: rgb(240, 230, 230);
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: right;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #3f1be2;
+  }
+
+

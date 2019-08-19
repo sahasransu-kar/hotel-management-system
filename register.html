@@ -1,0 +1,98 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        body {
+            background-color: #f0f4f5;
+        }
+    </style>
+</head>
+<header> 
+        <div class="main">
+                        <ul class="list">
+                            <li><a href="page1.html">HOME </a></li>
+                            <li><a href="login.html">LOGIN</a> </li>
+                            <li><a href="">AMBIGUITY</a> </li>
+                            <li><a href="index.html">CONTACT</a></li>
+                            <li><a href="register.html">SIGNUP</a></li>
+                            <li><a href="faq.html">FAQ </a></li>
+                         </ul>        
+        </div>
+        </header>
+<body>
+    <div id="container-register">
+        <div id="title">
+            <i class="material-icons lock"> Register</i> 
+        </div>
+
+        <form action="store.jsp" method="post">
+               <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">First name</i>
+                </div>
+                <input id="First name" placeholder="First name" type="text" name="fname" required class="validate" autocomplete="off" required>
+            </div>
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">Last name</i>
+                </div>
+                <input id="Last name" placeholder="Last name" type="text" name="lname" required class="validate" autocomplete="off" required>
+            </div>
+
+
+
+            
+
+              <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">Email</i>
+                </div>
+                <input id="email" placeholder="Email" pattern="[^ @]*@[^ @]*" name="email" type="email" required class="validate" autocomplete="off" required>
+            </div>
+
+            <div class="clearfix"></div>
+            
+
+
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">Username</i>
+                </div>
+                <input id="username" placeholder="Username" type="text" name="username" required class="validate" autocomplete="off" required>
+            </div>
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">Phone No</i>
+                </div>
+                <input id="phone no" placeholder="phone no"pattern="[789][0-9]{9}" type="text" name="phoneno" required class="validate" autocomplete="off" required>
+            </div>
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">Password</i>
+                </div>
+                <input id="password" placeholder="Password" type="password" required class="validate" name="password" autocomplete="off" required>
+            </div>
+            
+            <div class="remember-me">
+                <input type="checkbox" checked>
+                <span style="color: #DDD">I accept Terms of Service</span>
+            </div>
+
+            <input type="submit"  value="Register" />
+        </form>
+
+        <div class="privacy">
+            <a href="#">Privacy Policy</a>
+        </div>
+
+        <div class="register">
+            Do you already have an account?
+            <a href="login.html"><button id="register-link">Log In here</button></a>
+        </div>
+    </div>
+</body>
+
+</html>

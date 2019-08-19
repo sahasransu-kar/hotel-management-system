@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Payment</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="payment/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="payment/jquery.min.js"></link>
+    <link rel="stylesheet" type="text/css" href="payment/bootstrap.min.js"></link>
+
+    <style>
+        #form1 {
+                  position: relative;
+                  right:100px;
+        }
+    </style>
+</head>
+<body>
+ 
+<div class="container-fluid">
+    <h2>Payment Portal</h2>
+    <div class="panel-group">
+      <div class="panel panel-default">
+        <div class="panel-heading">Purchase Details</div>
+        <div class="panel-body">
+            <div class="col-md-4"><b>Reference number</b><br>1002456389</div>
+            <div class="col-md-4"><b>Merchandise</b><br>Package Premium</div>
+            <div class="col-md-4"><b>Amount</b><br>Rs. 150</div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">Payment Details</div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="container">
+                    <form role="form" class="form-horizontal" id="form1">
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="name">Cardholder Name:</label>
+                        <div class="col-sm-8">
+                            <input type="name" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="name">Card Number:</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="card" placeholder="card number">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="name">Card Type:</label>
+                        <div class="col-sm-8">
+                            <select class="form-control" id="card_type">
+                                <option>Visa</option>
+                                <option>MasterCard</option>
+                                <option>American Express</option>
+                                <option>slicepay</option>
+                                <option>paymt</option>
+                            </select>
+                        </div>
+                        <label class="control-label"> <img src="vm.jpg" height="20" width="60" alt="visa_mastercard"></img></label>
+                    </div>
+                     <div class="form-group">
+                        <label class="control-label col-sm-2" for="name">Payment Type:</label>
+                        <div class="col-sm-8">
+                            <select class="form-control" id="payment_type">
+                                <option>Debit Card</option>
+                                <option>Credit Card</option>
+                                
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="name">Card Expiry Date:</label>
+                        <div class="col-sm-5">
+                            <input type="month" class="form-control" id="date" placeholder="Your Expiry Date of card">
+                        </div>
+                        <label class="control-label col-sm-1" for="name">CVC:</label>
+                        <div class="col-sm-2">
+                            <input type="text" class="form-control" id="cvv" placeholder="***">
+                        </div>
+                        <label class="control-label"> The last three digits <br>on the back of card</label>
+                    </div>
+                    <div class="form-group">
+                        <div class="btn-group col-md-10">
+                          <button type="submit" class="btn btn-success pull-right col-md-2">Submit</button>
+                          <button type="reset" class="btn btn-success pull-right col-md-2">Reset</button>
+                          <button type="cancel" class="btn btn-success pull-right col-md-2">Cancel</button>
+                        </div>
+                      </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+</body>
+</html>

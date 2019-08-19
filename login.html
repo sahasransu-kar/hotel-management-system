@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    
+    <link rel="stylesheet" href="main.css">
+    <style>
+        body {
+            background-color: #fcfcfd;
+        }
+    </style>
+</head>
+<header> 
+        <div class="main">
+                        <ul class="list">
+                            <li><a href="page1.html">HOME </a></li>
+                            <li><a href="login.html">LOGIN</a> </li>
+                            <li><a href="">AMBIGUITY</a> </li>
+                            <li><a href="index.html">CONTACT</a></li>
+                            <li><a href="register.html">SIGNUP</a></li>
+                            <li><a href="faq.html">FAQ </a></li>
+                           
+                         </ul>        
+        </div>
+        </header>
+
+<body>
+    <div id="container-login">
+        <div id="title">
+            <i class="material-icons lock">   login</i> 
+        </div>
+
+        <form action="Verify.jsp">
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">Username</i>
+                </div>
+                <input id="username" name="uname" placeholder="Username" type="text"  required class="validate" autocomplete="off">
+            </div>
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">Password</i>
+                </div>
+                <input id="password" name="pwd" placeholder="Password" type="password" required class="validate" autocomplete="off">
+            </div>
+            
+
+            <div class="remember-me">
+                <input type="checkbox" checked>
+                <span style="color: #DDD">Remember Me</span>
+            </div>
+
+            <input type="submit" value="Log In" />
+        </form>
+
+        <div class="forgot-password">
+            <a href="#">Forgot your password?</a>
+        </div>
+        <div class="privacy">
+            <a href="#">Privacy Policy</a>
+        </div>
+
+        <div class="register">
+            Don't have an account yet?
+            <a href="register.html"><button id="register-link">Register here</button></a>
+        </div>
+    </div>
+</body>
+
+</html>
